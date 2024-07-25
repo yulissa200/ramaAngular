@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ListarClienteComponent } from './listar-cliente/listar-cliente/listar-cliente.component';
 import { ListarProvedoresComponent } from './provedor/listar-provedores/listar-provedores.component';
 import { ListarUsuarioComponent } from './usuarios/listar-usuario/listar-usuario.component';
+import { MantUsuarioComponent } from './usuarios/mant-usuario/mant-usuario.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListarClienteComponent,
     ListarProvedoresComponent,
-    ListarUsuarioComponent
+    ListarUsuarioComponent,
+    MantUsuarioComponent
   ],
   imports: [
     BrowserModule,
